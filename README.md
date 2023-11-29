@@ -4,6 +4,7 @@
   
   [![](https://dcbadge.vercel.app/api/server/cHekprskVE)](https://discord.gg/cHekprskVE)
 
+  [![](https://img.shields.io/badge/한국어-readme-green)](https://github.com/yjg30737/pyqt-openai/blob/main/README.kr.md)
 </div>
 
 Example of using text classification with pytorch model in Python PyQt GUI
