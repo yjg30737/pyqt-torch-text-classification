@@ -29,14 +29,16 @@ Since the dataset is very small, the model is also quite small! Due to the small
 
 Please refer to the source in the Kaggle notebook and ask GPT for an interpretation of each source. I will respond kindly :)
 
+If you want to do the text classification from number-based dataset, <a href="https://github.com/yjg30737/pyqt-torch-text-classification-from-number">try this</a>.
+
 ## Requirements
 * PyQt5 >= 5.14
 * torch
 
 ## How to Run
 1. git clone ~
-2. pip install -r requirements.txt
-3. python run ~
+3. pip install -r requirements.txt
+4. python run ~
 
 ## Preview
 ![image](https://github.com/yjg30737/pyqt-torch-text-classification/assets/55078043/4b3941e3-9a51-4b62-9a05-ca0bc929a936)
