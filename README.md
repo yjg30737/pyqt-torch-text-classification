@@ -7,7 +7,7 @@
   [![](https://img.shields.io/badge/한국어-readme-green)](https://github.com/yjg30737/pyqt-torch-text-classification/blob/main/README.kr.md)
 </div>
 
-Example of using text classification with pytorch model in Python PyQt GUI
+Example of using text classification from texts with pytorch model in Python PyQt GUI
 
 This small program uses an AI model to determine whether the text you input is positive or negative. It assesses where your entered text falls in terms of sentiment.
 
@@ -22,6 +22,8 @@ texts = ["It's so fun.", "It's the best.", "It's a really well-made movie.",
 ```
 
 The source code is available in a <a href="https://www.kaggle.com/code/yoonjunggyu/pytorch-text-classification">Kaggle notebook</a>.
+
+Text strings cannot be directly input as data for model training, so they must be converted into tensors. For this conversion, methods such as **one-hot encoding** or **word embedding** are used. **Word embedding** is more effective than one-hot encoding as it is more memory-efficient and captures the context between words.
 
 Since the dataset is very small, the model is also quite small! Due to the small size of the model, its accuracy on new data is significantly reduced. However, this is not focused on creating an accurate text classification model, but rather an example of how to make basic text classification model and apply the model in a GUI.
 
