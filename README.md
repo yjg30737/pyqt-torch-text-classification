@@ -1,12 +1,4 @@
 # pyqt-torch-text-classification
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/55078043/229002952-9afe57de-b0b6-400f-9628-b8e0044d3f7b.png" width="150px" height="150px"><br/><br/>
-  
-  [![](https://dcbadge.vercel.app/api/server/cHekprskVE)](https://discord.gg/cHekprskVE)
-
-  [![](https://img.shields.io/badge/한국어-readme-green)](https://github.com/yjg30737/pyqt-torch-text-classification/blob/main/README.kr.md)
-</div>
-
 Example of using text classification from texts with pytorch model in Python PyQt GUI
 
 This small program uses an AI model to determine whether the text you input is positive or negative. It assesses where your entered text falls in terms of sentiment.
